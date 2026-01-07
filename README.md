@@ -14,13 +14,14 @@ analyze what visual features of the surroundings actually influence the price.
 ---
 
 ## Repository Structure
-├── data_fetcher.ipynb
-├── eda_and_baseline_models.ipynb
-├── model_training.ipynb
-├── price_prediction_and_grad_cam.ipynb
-├── report.pdf
-├── predicted_prices.csv
-├── README.md
+###
+    ├── data_fetcher.ipynb
+    ├── eda_and_baseline_models.ipynb
+    ├── model_training.ipynb
+    ├── price_prediction_and_grad_cam.ipynb
+    ├── report.pdf
+    ├── predicted_prices.csv
+    ├── README.md
 
 
 ---
@@ -55,22 +56,22 @@ analyze what visual features of the surroundings actually influence the price.
 ---
 
 ## Dataset
-The dataset used for this project was *train1.csv* and *test2.csv* which is provided in the data folder , the data set folder structure required is the google drive is
-project_cdc
+- The dataset used for this project was *train1.csv* and *test2.csv* which is provided in the data folder , the data set folder structure required is the google drive is
+### project_cdc
     ├──train1.csv
     ├──test2.csv
     ├──images 
         ├──train
-        ├──test
-this is how the folder must look for the data_fetcher.ipynb file , after the images are fetched zip file consisting of train and test images must be made separately , this is to optimise the running time hence the folder must look like this now 
-project_cdc
-   ├──train1.csv
-   ├──test2.csv
-   ├──train_images.zip
-   ├──test_images.zip
-   ├──images
-        ├──train
-        ├──test
+        ├──test 
+- this is how the folder must look for the data_fetcher.ipynb file , after the images are fetched zip file consisting of train and test images must be made separately , this is to optimise the running time hence the folder must look like this now 
+### project_cdc
+       ├──train1.csv
+       ├──test2.csv
+       ├──train_images.zip
+       ├──test_images.zip
+       ├──images
+          ├──train
+          ├──test 
 ---
 
 ## How to Set Up and Run the Project
